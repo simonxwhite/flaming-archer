@@ -1,0 +1,55 @@
+/* line 4, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.autocomplete-list {
+  max-height: 406px;
+  overflow-y: auto;
+  margin: 0; }
+  /* line 18, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+  .autocomplete-list .item-text {
+    color: white;
+    padding: 10px 0;
+    display: block; }
+  /* line 33, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+  .autocomplete-list .img-category {
+    display: none; }
+  /* line 50, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+  .autocomplete-list a {
+    text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    .autocomplete-list {
+      margin: 0 20px; } }
+
+/* line 59, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-az_drug_brand .img-category {
+  background-image: url(../img/categories/brands.png); }
+
+/* line 60, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-az_disease .img-category {
+  background-image: url(../img/categories/disease.png); }
+
+/* line 61, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-az_moa .img-category {
+  background-image: url(../img/categories/mechanisms.png); }
+
+/* line 63, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-az_people .img-category, .category-az_people_autocomplete .img-category {
+  background-image: url(../img/categories/people.png); }
+
+/* line 64, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-az_applications .img-category {
+  background-image: url(../img/categories/applications.png); }
+
+/* line 65, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-termite_gene .img-category {
+  background-image: url(../img/categories/gene.png); }
+
+/* line 66, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-termite_drug .img-category {
+  background-image: url(../img/categories/drug.png); }
+
+/* line 67, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-termite_indication .img-category {
+  background-image: url(../img/categories/disease.png); }
+
+/* line 68, /Users/mark/repos/az-search/app/styles/autocomplete/autocomplete.scss */
+.category-termite_protyp .img-category {
+  background-image: url(../img/categories/protein.png); }

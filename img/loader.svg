@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox='0 0 50 50'>
+  <style>
+    @-webkit-keyframes spin {
+        0% { stroke-dashoffset: 310; }
+      100% { stroke-dashoffset: 99999; }
+    }
+
+    @keyframes spin {
+        0% { stroke-dashoffset: 310; }
+      100% { stroke-dashoffset: 99999; }
+    }
+
+    polygon {
+      stroke-dasharray: 310;
+      stroke-dashoffset: 310;
+      -webkit-animation: spin 300s infinite linear;
+      animation: spin 300s infinite linear;
+    }
+  </style>
+  <polygon fill='none' stroke='#848E9B' stroke-width='1' stroke-linecap='round' stroke-linejoin='round' points='25,2 45,14 45,36 25,48 5,36 5,14 25,2 25,48 45,14 5,36 '/>
+</svg>
